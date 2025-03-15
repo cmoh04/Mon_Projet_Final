@@ -16,7 +16,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success fw-bold">
-        <div class="container-fluid">
+        <div class="container-fluid mx-auto flex justify-between items-center px-5">
             <a class="navbar-brand" href="/">Formation Autodidacte</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="catalogue.html">Catalogue</a>
+                        <a class="nav-link active px-3" href="catalogue.html">Catalogue</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link px-3" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link px-3" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -38,111 +38,112 @@
     </nav>
 
     <!-- Catalogue Section -->
-    <section class="container my-5">
-        <h2 class="h3 text-center mb-5">Catalogue des Formations</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center">
-            <!-- Formation Item -->
+    <section class="container-fluid">
+        <h2 class="h3 mx-auto text-center py-5">Catalogue des Formations</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center mx-auto">
+            <!-- Formation en Développement web -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/dev_web.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">Le Développement Web</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre le développement web frontend.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre le développement web frontend.</p>
                         <a href="https://www.udemy.com/fr/topic/web-development/free/?srsltid=AfmBOorlFgHhvKpAnGrtKnEnBE-TNRQzg4Yi7PL3z_zSWnoKAWFhgJKa" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Ajouter d'autres formations ici si nécessaire -->
+            <!-- Formation en comptabilité -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/compta.png" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">La Comptabilité</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre les bases de la comptabilité.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre les bases de la comptabilité.</p>
                         <a href="https://cursa.app/cours-gratuits-comptabilite-online" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-
+            <!-- Formation en Intelligence artificielle -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/ia.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">L'Intelligence Artificielle</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre à utiliser l'IA afin d'être efficace et atteindre ses objectifs.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre à utiliser l'IA afin d'être efficace et atteindre ses objectifs.</p>
                         <a href="https://openclassrooms.com/fr/courses/6417031-objectif-ia-initiez-vous-a-lintelligence-artificielle" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-
+            <!-- Formation en Marketing digital -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/markdigi.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">Le Marketing Digital</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour être expert en marketing digital.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour être expert en marketing digital.</p>
                         <a href="https://openclassrooms.com/fr/courses/3013816-initiez-vous-au-marketing-digital" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-
+            <!-- Formation en Gestion de projet -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/Gestion de projet.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">La Gestion de Projet</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre comment gérer un projet.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre comment gérer un projet.</p>
                         <a href="https://cursa.app/cours-gratuits-gestion-de-projet-online" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-
+            <!-- Formation en Analyse de données -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/data.jpeg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">L'Analyse des Données</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre comment analyser les données.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre comment analyser les données.</p>
                         <a href="https://www.linkedin.com/learning/topics/analyse-de-donnees?originalSubdomain=fr" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-
+            <!-- Formation en Développement économique -->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/World_Bank_Final.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
-                        <h5 class="card-title mb-auto">Le Développement Economique et L'Inclusion Financière</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre le développement économique et l'inclusion financière de la Banque Mondiale.</p>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title mb-auto">Le Développement Economique de la Banque mondiale</h5>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre le développement économique international.</p>
                         <a href="https://olccustext.worldbank.org/redirection/wbg-academy" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
-
+            <!-- Formation en GRH-->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto">
                     <img src="images/grh.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">La Gestion des Ressources Humaines</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre comment gérer les employés au sein d'une entreprise.</p>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre à gérer une équipe dynamique.</p>
                         <a href="https://www.linkedin.com/learning/les-fondements-de-la-gestion-des-ressources-humaines" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
             </div>
 
+            <!-- Formation de Packs Office Microsoft-->
             <div class="col">
-                <div class="card shadow-sm">
+                <div class="card shadow-sm border-0 h-100 mx-auto mb-4">
                     <img src="images/formation-bureautique-microsoft-office.jpg" class="img-fluid rounded mx-auto d-block">
-                    <div class="card-body">
-                        <h5 class="card-title">L'informatique Bureautique.</h5>
-                        <p class="card-text mb-auto">Formation gratuite en ligne pour apprendre à maîtriser les packs Office de Microsoft.</p>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title">L'Informatique Bureautique.</h5>
+                        <p class="card-text mb-4">Formation gratuite en ligne pour apprendre à maîtriser les packs Office de Microsoft.</p>
                         <a href="https://cursa.app/cours-gratuits-productivite-bureautique-online" target="_blank" class="btn btn-success">Voir la formation</a>
                     </div>
                 </div>
