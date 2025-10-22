@@ -72,17 +72,18 @@ h2 {
 }
 
 header h1 {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 10px 0;
-    position: relative;
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+  overflow: visible;   /* Montre tout le texte */
+  line-height: 1.4;    /* Améliore la lisibilité */
+  white-space: nowrap;
 }
 
 h1 {
     display: inline-block;
     animation: h1 10s linear infinite;
-    font-size: 18px;
+    font-size: 10px;
 }
 
 @keyframes h1 {
